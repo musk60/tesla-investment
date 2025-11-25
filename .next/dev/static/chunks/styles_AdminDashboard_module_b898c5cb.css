@@ -1,0 +1,131 @@
+/* [project]/styles/AdminDashboard.module.css [app-client] (css) */
+.AdminDashboard-module__GcI4OW__dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6rem 2rem 4rem;
+}
+
+.AdminDashboard-module__GcI4OW__header {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.AdminDashboard-module__GcI4OW__addButton {
+  background-color: var(--tesla-red);
+  color: #fff;
+  border-radius: 4px;
+  padding: .8rem 1.5rem;
+  font-weight: 600;
+}
+
+.AdminDashboard-module__GcI4OW__grid {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  display: grid;
+}
+
+.AdminDashboard-module__GcI4OW__card {
+  background-color: #ffffff0d;
+  border: 1px solid #ffffff1a;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.AdminDashboard-module__GcI4OW__card h3 {
+  margin-bottom: .5rem;
+}
+
+.AdminDashboard-module__GcI4OW__card p {
+  color: var(--tesla-gray);
+  margin-bottom: 1rem;
+  font-size: .9rem;
+}
+
+.AdminDashboard-module__GcI4OW__stats {
+  color: var(--tesla-light);
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: .9rem;
+  display: flex;
+}
+
+.AdminDashboard-module__GcI4OW__editButton {
+  border: 1px solid var(--tesla-gray);
+  color: #fff;
+  background-color: #0000;
+  border-radius: 4px;
+  width: 100%;
+  padding: .5rem;
+  transition: all .3s;
+}
+
+.AdminDashboard-module__GcI4OW__editButton:hover {
+  color: var(--tesla-dark);
+  background-color: #fff;
+}
+
+.AdminDashboard-module__GcI4OW__formContainer {
+  background-color: #ffffff0d;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.AdminDashboard-module__GcI4OW__formGrid {
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  display: grid;
+}
+
+.AdminDashboard-module__GcI4OW__inputGroup {
+  flex-direction: column;
+  display: flex;
+}
+
+.AdminDashboard-module__GcI4OW__inputGroup label {
+  color: var(--tesla-gray);
+  margin-bottom: .5rem;
+}
+
+.AdminDashboard-module__GcI4OW__inputGroup input, .AdminDashboard-module__GcI4OW__inputGroup textarea {
+  color: #fff;
+  background-color: #ffffff1a;
+  border: 1px solid #0000;
+  border-radius: 4px;
+  padding: .8rem;
+  font-family: inherit;
+}
+
+.AdminDashboard-module__GcI4OW__inputGroup input:focus, .AdminDashboard-module__GcI4OW__inputGroup textarea:focus {
+  border-color: var(--tesla-light);
+  outline: none;
+}
+
+.AdminDashboard-module__GcI4OW__formActions {
+  justify-content: flex-end;
+  gap: 1rem;
+  display: flex;
+}
+
+.AdminDashboard-module__GcI4OW__cancelButton, .AdminDashboard-module__GcI4OW__saveButton {
+  border-radius: 4px;
+  padding: .8rem 2rem;
+  font-weight: 600;
+}
+
+.AdminDashboard-module__GcI4OW__cancelButton {
+  border: 1px solid var(--tesla-gray);
+  color: #fff;
+  background-color: #0000;
+}
+
+.AdminDashboard-module__GcI4OW__saveButton {
+  background-color: var(--tesla-red);
+  color: #fff;
+}
+
+/*# sourceMappingURL=styles_AdminDashboard_module_b898c5cb.css.map*/

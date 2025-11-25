@@ -1,0 +1,118 @@
+/* [project]/tesla-investment/styles/Investments.module.css [app-client] (css) */
+.Investments-module__SjYKjq__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6rem 2rem 4rem;
+}
+
+.Investments-module__SjYKjq__title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.Investments-module__SjYKjq__investButton {
+  background-color: var(--tesla-red);
+  color: #fff;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 1rem;
+  padding: .8rem;
+  font-weight: 600;
+  transition: background-color .3s;
+}
+
+.Investments-module__SjYKjq__investButton:hover {
+  background-color: #c01116;
+}
+
+.Investments-module__SjYKjq__modalOverlay {
+  z-index: 1000;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-color: #000c;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  inset: 0;
+}
+
+.Investments-module__SjYKjq__modal {
+  background-color: var(--tesla-dark);
+  border: 1px solid #ffffff1a;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  padding: 2rem;
+}
+
+.Investments-module__SjYKjq__modal h2 {
+  margin-bottom: 1rem;
+}
+
+.Investments-module__SjYKjq__modal p {
+  color: var(--tesla-gray);
+  margin-bottom: 1.5rem;
+}
+
+.Investments-module__SjYKjq__inputGroup {
+  margin-bottom: 1.5rem;
+}
+
+.Investments-module__SjYKjq__inputGroup label {
+  margin-bottom: .5rem;
+  display: block;
+}
+
+.Investments-module__SjYKjq__inputGroup input {
+  color: #fff;
+  background-color: #ffffff1a;
+  border: 1px solid #0000;
+  border-radius: 4px;
+  width: 100%;
+  padding: .8rem;
+  font-size: 1.1rem;
+}
+
+.Investments-module__SjYKjq__modalActions {
+  justify-content: flex-end;
+  gap: 1rem;
+  display: flex;
+}
+
+.Investments-module__SjYKjq__cancelButton, .Investments-module__SjYKjq__confirmButton {
+  border-radius: 4px;
+  padding: .8rem 1.5rem;
+  font-weight: 600;
+}
+
+.Investments-module__SjYKjq__cancelButton {
+  border: 1px solid var(--tesla-gray);
+  color: #fff;
+  background-color: #0000;
+}
+
+.Investments-module__SjYKjq__confirmButton {
+  background-color: var(--tesla-red);
+  color: #fff;
+}
+
+.Investments-module__SjYKjq__error {
+  color: #f44336;
+  background-color: #f443361a;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  padding: .5rem;
+}
+
+.Investments-module__SjYKjq__success {
+  color: #4caf50;
+  text-align: center;
+  background-color: #4caf501a;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  padding: .5rem;
+}
+
+/*# sourceMappingURL=tesla-investment_styles_Investments_module_css_bad6b30c._.single.css.map*/

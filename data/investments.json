@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Model 3 Fund",
+    "minInvestment": 500,
+    "roi": "6-8%",
+    "duration": "1 - 12 months",
+    "risk": "Low",
+    "description": "Stable investment focused on mass market vehicle production."
+  },
+  {
+    "id": 2,
+    "name": "Cybertruck Growth",
+    "minInvestment": 1000,
+    "roi": "8-12%",
+    "duration": "24 months",
+    "risk": "Medium",
+    "description": "Growth-oriented fund backing the expansion of Cybertruck manufacturing."
+  },
+  {
+    "id": 3,
+    "name": "Supercharger Network",
+    "minInvestment": 2500,
+    "roi": "6-9%",
+    "duration": "18 months",
+    "risk": "Low-Medium",
+    "description": "Infrastructure investment in the global charging network."
+  },
+  {
+    "id": 4,
+    "name": "Autonomy AI",
+    "minInvestment": 5000,
+    "roi": "15-25%",
+    "duration": "36 months",
+    "risk": "High",
+    "description": "High-risk, high-reward investment in Full Self-Driving technology."
+  },
+  {
+    "id": 5,
+    "name": "Quantum Ai",
+    "minInvestment": "1000",
+    "roi": "3.50%",
+    "duration": "2 weeks",
+    "risk": "medium",
+    "description": "Ai powered investment"
+  },
+  {
+    "id": 6,
+    "name": "Space X",
+    "minInvestment": "2500",
+    "roi": "10%",
+    "duration": "2 weeks",
+    "risk": "medium",
+    "description": "Participating in making multi-planetary life a reality"
+  }
+]

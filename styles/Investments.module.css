@@ -1,0 +1,120 @@
+.container {
+    padding: 6rem 2rem 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+
+.investButton {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: var(--tesla-red);
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.investButton:hover {
+    background-color: #c01116;
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+
+.modal {
+    background-color: var(--tesla-dark);
+    padding: 2rem;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.modal h2 {
+    margin-bottom: 1rem;
+}
+
+.modal p {
+    color: var(--tesla-gray);
+    margin-bottom: 1.5rem;
+}
+
+.inputGroup {
+    margin-bottom: 1.5rem;
+}
+
+.inputGroup label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.inputGroup input {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.modalActions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.cancelButton,
+.confirmButton {
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.cancelButton {
+    background-color: transparent;
+    border: 1px solid var(--tesla-gray);
+    color: white;
+}
+
+.confirmButton {
+    background-color: var(--tesla-red);
+    color: white;
+}
+
+.error {
+    color: #f44336;
+    margin-bottom: 1rem;
+    background-color: rgba(244, 67, 54, 0.1);
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.success {
+    color: #4caf50;
+    margin-bottom: 1rem;
+    background-color: rgba(76, 175, 80, 0.1);
+    padding: 0.5rem;
+    border-radius: 4px;
+    text-align: center;
+}

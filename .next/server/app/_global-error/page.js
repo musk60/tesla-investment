@@ -1,0 +1,10 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_global-error/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__cd4efd70._.js")
+R.c("server/chunks/ssr/91bb9_next_dist_5d7d026a._.js")
+R.c("server/chunks/ssr/91bb9_next_dist_c49bb827._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__fcf92d8d._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__3385fed1._.js")
+R.c("server/chunks/ssr/91bb9_next_dist_41e7c024._.js")
+R.c("server/chunks/ssr/tesla-investment__next-internal_server_app__global-error_page_actions_257bbef4.js")
+R.m(5605)
+module.exports=R.m(5605).exports

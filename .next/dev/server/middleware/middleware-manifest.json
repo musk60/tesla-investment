@@ -1,0 +1,31 @@
+{
+  "sorted_middleware": [],
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/tesla-investment_70999ace._.js",
+        "server/edge/chunks/[root-of-the-server]__5fef85f0._.js",
+        "server/edge/chunks/turbopack-tesla-investment_edge-wrapper_3d52563e.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/:path*{(\\\\.json)}?",
+          "originalSource": "/:path*"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "hLKTdouPpIOCEfXjslXkVbY8nCUwVuIi23JF9xN7LCo=",
+        "__NEXT_PREVIEW_MODE_ID": "05823781d9ae62bb9d586f3820a25e78",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "59e53efff8cb46cb6618c0c286ef9e9550c287c2dccbd2fd058b8ab1b79349b5",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "252fa4eb57a947767620ba67f72efe1d46cfc0f5203b4599d75e88edac19eb85"
+      }
+    }
+  },
+  "instrumentation": null,
+  "functions": {}
+}

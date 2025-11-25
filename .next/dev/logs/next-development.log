@@ -1,0 +1,19 @@
+[00:00:05.560] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:06.678] Server  LOG      ✓ Ready in 4.4s
+[00:00:14.963] Server  LOG      ○ Compiling / ...
+[00:00:16.837] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:36.145] Server  LOG      ✓ Compiled in 36ms
+[00:04:37.987] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:27.801] Server  LOG      ✓ Compiled in 5ms
+[00:06:49.586] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:19.679] Server  LOG      ✓ Compiled in 18ms
+[00:11:39.123] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:52:55.420] Server  ERROR   C:\Users\USER-PC\OneDrive\Documents\ANTIGRA\tesla-investment\node_modules\next\dist\server\dev\log-requests.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:52:55.427] Server  ERROR   C:\Users\USER-PC\OneDrive\Documents\ANTIGRA\tesla-investment\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:52:55.433] Server  ERROR   Error: EPIPE: broken pipe, write
+[01:52:55.436] Server  ERROR   C:\Users\USER-PC\OneDrive\Documents\ANTIGRA\tesla-investment\node_modules\next\dist\server\dev\log-requests.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:52:55.437] Server  ERROR   C:\Users\USER-PC\OneDrive\Documents\ANTIGRA\tesla-investment\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:52:55.439] Server  ERROR    ⨯ "uncaughtException:" Error: EPIPE: broken pipe, write
+[01:52:55.442] Server  ERROR   C:\Users\USER-PC\OneDrive\Documents\ANTIGRA\tesla-investment\node_modules\next\dist\server\dev\log-requests.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:52:55.443] Server  ERROR   C:\Users\USER-PC\OneDrive\Documents\ANTIGRA\tesla-investment\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:52:55.444] Server  ERROR    ⨯ "uncaughtException: " Error: EPIPE: broken pipe, write

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1763978950950",
+    "name": "API Test User",
+    "email": "test_1763978949589@example.com",
+    "password": "password123",
+    "totalInvested": 2000,
+    "currentValue": 2000,
+    "activePlans": [
+      {
+        "id": 1763978952176,
+        "planId": 1,
+        "name": "Model 3 Fund",
+        "investedAmount": 2000,
+        "currentValue": 2000,
+        "dateInvested": "2025-11-24"
+      }
+    ]
+  },
+  {
+    "id": "1763979820481",
+    "name": "mac",
+    "email": "macclintonlolomari7@gmail.com",
+    "password": "mac123",
+    "totalInvested": 11000,
+    "currentValue": 52500,
+    "activePlans": [
+      {
+        "id": 1763979863949,
+        "planId": 4,
+        "name": "Autonomy AI",
+        "investedAmount": 5000,
+        "currentValue": 5000,
+        "dateInvested": "2025-11-24"
+      },
+      {
+        "id": 1763995877910,
+        "planId": 3,
+        "name": "Supercharger Network",
+        "investedAmount": 2500,
+        "currentValue": 2500,
+        "dateInvested": "2025-11-24",
+        "status": "active"
+      },
+      {
+        "id": 1764003288953,
+        "planId": 6,
+        "name": "Space X",
+        "investedAmount": 2500,
+        "currentValue": 2500,
+        "dateInvested": "2025-11-24",
+        "status": "active"
+      },
+      {
+        "id": 1764028217895,
+        "planId": 1,
+        "name": "Model 3 Fund",
+        "investedAmount": 500,
+        "currentValue": 500,
+        "dateInvested": "2025-11-24",
+        "status": "pending"
+      }
+    ]
+  }
+]

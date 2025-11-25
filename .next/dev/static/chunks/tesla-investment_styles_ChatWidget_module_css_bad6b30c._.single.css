@@ -1,0 +1,133 @@
+/* [project]/tesla-investment/styles/ChatWidget.module.css [app-client] (css) */
+.ChatWidget-module__Af3wUG__chatWidget {
+  z-index: 1000;
+  font-family: Inter, sans-serif;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.ChatWidget-module__Af3wUG__toggleButton {
+  background-color: var(--tesla-red);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  transition: transform .3s;
+  display: flex;
+  box-shadow: 0 4px 12px #0000004d;
+}
+
+.ChatWidget-module__Af3wUG__toggleButton:hover {
+  transform: scale(1.1);
+}
+
+.ChatWidget-module__Af3wUG__chatWindow {
+  background-color: #1e1e1e;
+  border: 1px solid #ffffff1a;
+  border-radius: 12px;
+  flex-direction: column;
+  width: 350px;
+  height: 500px;
+  display: flex;
+  position: absolute;
+  bottom: 80px;
+  right: 0;
+  overflow: hidden;
+  box-shadow: 0 8px 24px #00000080;
+}
+
+.ChatWidget-module__Af3wUG__header {
+  background-color: var(--tesla-dark);
+  color: #fff;
+  border-bottom: 1px solid #ffffff1a;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  display: flex;
+}
+
+.ChatWidget-module__Af3wUG__header h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.ChatWidget-module__Af3wUG__closeButton {
+  color: var(--tesla-gray);
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.ChatWidget-module__Af3wUG__messages {
+  flex-direction: column;
+  flex: 1;
+  gap: 1rem;
+  padding: 1rem;
+  display: flex;
+  overflow-y: auto;
+}
+
+.ChatWidget-module__Af3wUG__message {
+  border-radius: 12px;
+  max-width: 80%;
+  padding: .8rem;
+  font-size: .9rem;
+  line-height: 1.4;
+}
+
+.ChatWidget-module__Af3wUG__userMessage {
+  background-color: var(--tesla-red);
+  color: #fff;
+  border-bottom-right-radius: 2px;
+  align-self: flex-end;
+}
+
+.ChatWidget-module__Af3wUG__adminMessage {
+  color: #fff;
+  background-color: #ffffff1a;
+  border-bottom-left-radius: 2px;
+  align-self: flex-start;
+}
+
+.ChatWidget-module__Af3wUG__inputArea {
+  border-top: 1px solid #ffffff1a;
+  gap: .5rem;
+  padding: 1rem;
+  display: flex;
+}
+
+.ChatWidget-module__Af3wUG__input {
+  color: #fff;
+  background-color: #ffffff0d;
+  border: 1px solid #fff3;
+  border-radius: 20px;
+  outline: none;
+  flex: 1;
+  padding: .8rem;
+}
+
+.ChatWidget-module__Af3wUG__input:focus {
+  border-color: var(--tesla-red);
+}
+
+.ChatWidget-module__Af3wUG__sendButton {
+  color: var(--tesla-red);
+  cursor: pointer;
+  background-color: #0000;
+  border: none;
+  font-weight: 600;
+}
+
+.ChatWidget-module__Af3wUG__sendButton:disabled {
+  color: var(--tesla-gray);
+  cursor: not-allowed;
+}
+
+/*# sourceMappingURL=tesla-investment_styles_ChatWidget_module_css_bad6b30c._.single.css.map*/

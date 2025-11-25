@@ -1,0 +1,44 @@
+{
+  "chat_g1tr8e55g": [
+    {
+      "text": "hello",
+      "sender": "user",
+      "timestamp": "2025-11-24T15:44:38.396Z"
+    },
+    {
+      "text": "hi",
+      "sender": "user",
+      "timestamp": "2025-11-24T15:46:07.966Z"
+    },
+    {
+      "text": "yes hello",
+      "sender": "admin",
+      "timestamp": "2025-11-24T15:46:48.149Z"
+    },
+    {
+      "text": "how can i start investing?",
+      "sender": "user",
+      "timestamp": "2025-11-24T15:47:08.116Z"
+    },
+    {
+      "text": "do you have BTC?",
+      "sender": "admin",
+      "timestamp": "2025-11-24T15:47:28.270Z"
+    },
+    {
+      "text": "YES I DO",
+      "sender": "user",
+      "timestamp": "2025-11-24T15:47:38.196Z"
+    },
+    {
+      "text": "OKAY COME FUCK ME BABY",
+      "sender": "admin",
+      "timestamp": "2025-11-24T15:47:51.133Z"
+    },
+    {
+      "text": "ELON BABY",
+      "sender": "user",
+      "timestamp": "2025-11-24T15:48:04.229Z"
+    }
+  ]
+}

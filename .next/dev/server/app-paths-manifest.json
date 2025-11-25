@@ -1,0 +1,17 @@
+{
+  "/about/page": "app/about/page.js",
+  "/admin/dashboard/page": "app/admin/dashboard/page.js",
+  "/admin/users/[id]/page": "app/admin/users/[id]/page.js",
+  "/admin/users/page": "app/admin/users/page.js",
+  "/api/admin/settings/route": "app/api/admin/settings/route.js",
+  "/api/admin/users/[id]/route": "app/api/admin/users/[id]/route.js",
+  "/api/admin/users/route": "app/api/admin/users/route.js",
+  "/api/auth/login/route": "app/api/auth/login/route.js",
+  "/api/investments/route": "app/api/investments/route.js",
+  "/api/user/route": "app/api/user/route.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/investments/page": "app/investments/page.js",
+  "/login/page": "app/login/page.js",
+  "/maintenance/page": "app/maintenance/page.js",
+  "/page": "app/page.js"
+}

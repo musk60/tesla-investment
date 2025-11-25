@@ -1,0 +1,68 @@
+/* [project]/tesla-investment/styles/Legal.module.css [app-client] (css) */
+.Legal-module__8GokOa__container {
+  background-color: var(--tesla-dark);
+  color: #fff;
+  min-height: 100vh;
+  padding: 100px 2rem 4rem;
+  font-family: Inter, sans-serif;
+}
+
+.Legal-module__8GokOa__content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.Legal-module__8GokOa__header {
+  text-align: center;
+  border-bottom: 1px solid #ffffff1a;
+  margin-bottom: 4rem;
+  padding-bottom: 2rem;
+}
+
+.Legal-module__8GokOa__header h1 {
+  background: linear-gradient(45deg, #fff, #ccc);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.Legal-module__8GokOa__section {
+  margin-bottom: 3rem;
+}
+
+.Legal-module__8GokOa__section h2 {
+  color: var(--tesla-red);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.Legal-module__8GokOa__section p {
+  color: #ddd;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.Legal-module__8GokOa__section ul {
+  color: #ddd;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.Legal-module__8GokOa__section li {
+  margin-bottom: .5rem;
+  line-height: 1.6;
+}
+
+.Legal-module__8GokOa__lastUpdated {
+  color: var(--tesla-gray);
+  text-align: center;
+  margin-top: 4rem;
+  font-size: .9rem;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=tesla-investment_styles_Legal_module_bb880684.css.map*/

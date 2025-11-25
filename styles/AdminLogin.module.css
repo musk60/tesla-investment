@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.error {
+    color: #f44336;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.inputGroup {
+    margin-bottom: 1.5rem;
+}
+
+.inputGroup label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--tesla-gray);
+}
+
+.inputGroup input {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: white;
+}
+
+.inputGroup input:focus {
+    border-color: var(--tesla-light);
+    outline: none;
+}
+
+.button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: var(--tesla-red);
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #c01116;
+}

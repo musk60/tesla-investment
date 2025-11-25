@@ -1,0 +1,181 @@
+/* [project]/tesla-investment/app/globals.css [app-client] (css) */
+:root {
+  --tesla-red: #e82127;
+  --tesla-dark: #171a20;
+  --tesla-light: #f4f4f4;
+  --tesla-gray: #5c5e62;
+  --font-primary: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--tesla-dark);
+  color: var(--tesla-light);
+  background: linear-gradient(#171a20, #000);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--tesla-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--tesla-gray);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--tesla-light);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* [project]/tesla-investment/styles/Navbar.module.css [app-client] (css) */
+.Navbar-module__gpr6cq__navbar {
+  z-index: 100;
+  color: #fff;
+  background-color: #0000;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  position: fixed;
+  top: 0;
+}
+
+.Navbar-module__gpr6cq__logo {
+  letter-spacing: 4px;
+  text-shadow: 0 2px 4px #0000004d;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.Navbar-module__gpr6cq__links {
+  gap: 2rem;
+  display: flex;
+}
+
+.Navbar-module__gpr6cq__links a {
+  font-weight: 500;
+  transition: color .3s;
+}
+
+.Navbar-module__gpr6cq__links a:hover {
+  color: var(--tesla-light);
+}
+
+.Navbar-module__gpr6cq__auth {
+  font-weight: 500;
+}
+
+.Navbar-module__gpr6cq__logoutButton {
+  color: #fff;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-weight: 500;
+  transition: color .3s;
+}
+
+.Navbar-module__gpr6cq__logoutButton:hover {
+  color: var(--tesla-light);
+}
+
+.Navbar-module__gpr6cq__registerButton {
+  background-color: #ffffff1a;
+  border-radius: 4px;
+  padding: .5rem 1rem;
+  transition: background-color .3s;
+}
+
+.Navbar-module__gpr6cq__registerButton:hover {
+  background-color: #fff3;
+  color: #fff !important;
+}
+
+/* [project]/tesla-investment/styles/Footer.module.css [app-client] (css) */
+.Footer-module__6Ik99W__footer {
+  color: var(--tesla-gray);
+  background-color: #0003;
+  justify-content: center;
+  margin-top: auto;
+  padding: 2rem;
+  font-size: .8rem;
+  display: flex;
+}
+
+.Footer-module__6Ik99W__content {
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  display: flex;
+}
+
+.Footer-module__6Ik99W__links {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  display: flex;
+}
+
+.Footer-module__6Ik99W__links a {
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.Footer-module__6Ik99W__links a:hover {
+  color: var(--tesla-light);
+  text-decoration: underline;
+}
+
+.Footer-module__6Ik99W__contact {
+  color: var(--tesla-light);
+  border-left: 1px solid var(--tesla-gray);
+  margin-left: 1rem;
+  padding-left: 1rem;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .Footer-module__6Ik99W__contact {
+    text-align: center;
+    border-left: none;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
+.Footer-module__6Ik99W__adminLink {
+  opacity: .5;
+  font-size: .7rem;
+}
+
+.Footer-module__6Ik99W__adminLink:hover {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=tesla-investment_113f739c._.css.map*/

@@ -1,0 +1,67 @@
+/* [project]/styles/AdminLogin.module.css [app-client] (css) */
+.AdminLogin-module__F-gqya__container {
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  display: flex;
+}
+
+.AdminLogin-module__F-gqya__card {
+  background-color: #ffffff0d;
+  border: 1px solid #ffffff1a;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+}
+
+.AdminLogin-module__F-gqya__card h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.AdminLogin-module__F-gqya__error {
+  color: #f44336;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.AdminLogin-module__F-gqya__inputGroup {
+  margin-bottom: 1.5rem;
+}
+
+.AdminLogin-module__F-gqya__inputGroup label {
+  color: var(--tesla-gray);
+  margin-bottom: .5rem;
+  display: block;
+}
+
+.AdminLogin-module__F-gqya__inputGroup input {
+  color: #fff;
+  background-color: #ffffff1a;
+  border: 1px solid #0000;
+  border-radius: 4px;
+  width: 100%;
+  padding: .8rem;
+}
+
+.AdminLogin-module__F-gqya__inputGroup input:focus {
+  border-color: var(--tesla-light);
+  outline: none;
+}
+
+.AdminLogin-module__F-gqya__button {
+  background-color: var(--tesla-red);
+  color: #fff;
+  border-radius: 4px;
+  width: 100%;
+  padding: .8rem;
+  font-weight: 600;
+  transition: background-color .3s;
+}
+
+.AdminLogin-module__F-gqya__button:hover {
+  background-color: #c01116;
+}
+
+/*# sourceMappingURL=styles_AdminLogin_module_6361b062.css.map*/

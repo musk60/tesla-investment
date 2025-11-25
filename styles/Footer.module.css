@@ -1,0 +1,130 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 0.8rem;
+    color: var(--tesla-gray);
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.links {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.links a {
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+    color: var(--tesla-light);
+}
+
+.contact {
+    font-weight: 600;
+    color: var(--tesla-light);
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left: 1px solid var(--tesla-gray);
+}
+
+@media (max-width: 600px) {
+    .contact {
+        margin-left: 0;
+        padding-left: 0;
+        border-left: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 0.8rem;
+    color: var(--tesla-gray);
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.links {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.links a {
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+    color: var(--tesla-light);
+}
+
+.contact {
+    font-weight: 600;
+    color: var(--tesla-light);
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left: 1px solid var(--tesla-gray);
+}
+
+@media (max-width: 600px) {
+    .contact {
+        margin-left: 0;
+        padding-left: 0;
+        border-left: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.adminLink {
+    opacity: 0.5;
+    font-size: 0.7rem;
+}
+
+.adminLink:hover {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 2rem 1rem;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .contact {
+        margin-left: 0;
+        padding-left: 0;
+        border-left: none;
+    }
+}

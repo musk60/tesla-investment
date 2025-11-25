@@ -1,0 +1,93 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 2rem;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 2.5rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 450px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.card h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.error {
+    background-color: rgba(244, 67, 54, 0.1);
+    color: #f44336;
+    padding: 0.8rem;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.inputGroup {
+    margin-bottom: 1.5rem;
+}
+
+.inputGroup label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--tesla-gray);
+    font-size: 0.9rem;
+}
+
+.inputGroup input {
+    width: 100%;
+    padding: 0.9rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.inputGroup input:focus {
+    border-color: var(--tesla-light);
+    outline: none;
+}
+
+.button {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--tesla-red);
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.button:hover {
+    background-color: #c01116;
+}
+
+.link {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: var(--tesla-gray);
+    font-size: 0.9rem;
+}
+
+.link a {
+    color: var(--tesla-light);
+    text-decoration: underline;
+    margin-left: 0.3rem;
+}
+
+.link a:hover {
+    color: white;
+}

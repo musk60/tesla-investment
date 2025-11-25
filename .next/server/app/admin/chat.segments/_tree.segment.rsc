@@ -1,0 +1,3 @@
+:HL["/_next/static/chunks/2fbfae3b024e74d5.css","style"]
+:HL["/_next/static/chunks/43f603516b96a0c6.css","style"]
+0:{"buildId":"qLMEAwkmfRvF0cFogl1EN","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"admin","paramType":null,"paramKey":"admin","hasRuntimePrefetch":false,"slots":{"children":{"name":"chat","paramType":null,"paramKey":"chat","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

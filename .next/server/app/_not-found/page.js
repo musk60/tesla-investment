@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__777bdd67._.js")
+R.c("server/chunks/ssr/91bb9_next_dist_5d7d026a._.js")
+R.c("server/chunks/ssr/91bb9_next_dist_esm_build_templates_app-page_4a1ced40.js")
+R.c("server/chunks/ssr/[root-of-the-server]__fcf92d8d._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__3385fed1._.js")
+R.c("server/chunks/ssr/91bb9_next_dist_41e7c024._.js")
+R.c("server/chunks/ssr/tesla-investment_de66284c._.js")
+R.c("server/chunks/ssr/91bb9_next_dist_client_components_cbbc3232._.js")
+R.c("server/chunks/ssr/91bb9_next_dist_client_components_builtin_forbidden_92799be8.js")
+R.c("server/chunks/ssr/tesla-investment__next-internal_server_app__not-found_page_actions_62b9f957.js")
+R.m(95215)
+module.exports=R.m(95215).exports

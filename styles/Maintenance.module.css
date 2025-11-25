@@ -1,0 +1,34 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #171a20;
+    color: white;
+    text-align: center;
+}
+
+.content {
+    padding: 2rem;
+    max-width: 600px;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.message {
+    font-size: 1.2rem;
+    color: #a2a3a5;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+}
+
+.logo {
+    font-weight: 800;
+    letter-spacing: 4px;
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
