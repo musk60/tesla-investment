@@ -99,7 +99,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "C:\\Users\\USER-PC\\OneDrive\\Documents\\ANTIGRA",
+    "outputFileTracingRoot": "C:\\Users\\USER-PC\\OneDrive\\Documents\\anti 2\\tesla-investment",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -289,12 +289,12 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.js",
     "turbopack": {
-      "root": "C:\\Users\\USER-PC\\OneDrive\\Documents\\ANTIGRA"
+      "root": "C:\\Users\\USER-PC\\OneDrive\\Documents\\anti 2\\tesla-investment"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "C:\\Users\\USER-PC\\OneDrive\\Documents\\ANTIGRA\\tesla-investment",
-  "relativeAppDir": "tesla-investment",
+  "appDir": "C:\\Users\\USER-PC\\OneDrive\\Documents\\anti 2\\tesla-investment",
+  "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",
     ".next\\server\\pages-manifest.json",

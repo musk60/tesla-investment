@@ -1,3 +1,0 @@
-module.exports=[15195,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(81809);a.n(d("[project]/tesla-investment/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},24852,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(81809);a.n(d("[project]/tesla-investment/node_modules/next/dist/client/components/builtin/global-error.js"))},82690,a=>{"use strict";a.i(15195);var b=a.i(24852);a.n(b)}];
-
-//# sourceMappingURL=91bb9_next_dist_client_components_builtin_global-error_2031bba4.js.map
