@@ -1,3 +1,0 @@
-:HL["/_next/static/chunks/5810a8cdd986469a.css","style"]
-:HL["/_next/static/chunks/88b7d9c156bfac9b.css","style"]
-0:{"buildId":"9f7xeJjDtg_aoNhRSBnTm","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"admin","paramType":null,"paramKey":"admin","hasRuntimePrefetch":false,"slots":{"children":{"name":"chat","paramType":null,"paramKey":"chat","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

@@ -2,8 +2,17 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "",
+  "basePath": "/tesla-investment",
   "redirects": [
+    {
+      "source": "/tesla-investment/",
+      "destination": "/tesla-investment",
+      "basePath": false,
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^/tesla-investment/$"
+    },
     {
       "source": "/:path+/",
       "destination": "/:path+",
@@ -19,24 +28,7 @@
     "afterFiles": [],
     "fallback": []
   },
-  "dynamicRoutes": [
-    {
-      "page": "/admin/users/[id]",
-      "regex": "^/admin/users/([^/]+?)(?:/)?$",
-      "routeKeys": {
-        "nxtPid": "nxtPid"
-      },
-      "namedRegex": "^/admin/users/(?<nxtPid>[^/]+?)(?:/)?$"
-    },
-    {
-      "page": "/api/admin/users/[id]",
-      "regex": "^/api/admin/users/([^/]+?)(?:/)?$",
-      "routeKeys": {
-        "nxtPid": "nxtPid"
-      },
-      "namedRegex": "^/api/admin/users/(?<nxtPid>[^/]+?)(?:/)?$"
-    }
-  ],
+  "dynamicRoutes": [],
   "staticRoutes": [
     {
       "page": "/",
@@ -61,78 +53,6 @@
       "regex": "^/about(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/about(?:/)?$"
-    },
-    {
-      "page": "/admin/chat",
-      "regex": "^/admin/chat(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/admin/chat(?:/)?$"
-    },
-    {
-      "page": "/admin/dashboard",
-      "regex": "^/admin/dashboard(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/admin/dashboard(?:/)?$"
-    },
-    {
-      "page": "/admin/login",
-      "regex": "^/admin/login(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/admin/login(?:/)?$"
-    },
-    {
-      "page": "/admin/users",
-      "regex": "^/admin/users(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/admin/users(?:/)?$"
-    },
-    {
-      "page": "/api/admin/settings",
-      "regex": "^/api/admin/settings(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/admin/settings(?:/)?$"
-    },
-    {
-      "page": "/api/admin/users",
-      "regex": "^/api/admin/users(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/admin/users(?:/)?$"
-    },
-    {
-      "page": "/api/auth/login",
-      "regex": "^/api/auth/login(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/auth/login(?:/)?$"
-    },
-    {
-      "page": "/api/auth/register",
-      "regex": "^/api/auth/register(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/auth/register(?:/)?$"
-    },
-    {
-      "page": "/api/chat",
-      "regex": "^/api/chat(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/chat(?:/)?$"
-    },
-    {
-      "page": "/api/invest",
-      "regex": "^/api/invest(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/invest(?:/)?$"
-    },
-    {
-      "page": "/api/investments",
-      "regex": "^/api/investments(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/investments(?:/)?$"
-    },
-    {
-      "page": "/api/user",
-      "regex": "^/api/user(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/user(?:/)?$"
     },
     {
       "page": "/dashboard",

@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/tesla-investment/app/globals.css"],"sourcesContent":[":root {\r\n  --tesla-red: #e82127;\r\n  --tesla-dark: #171a20;\r\n  --tesla-light: #f4f4f4;\r\n  --tesla-gray: #5c5e62;\r\n  --font-primary: 'Inter', sans-serif;\r\n}\r\n\r\n* {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\nbody {\r\n  font-family: var(--font-primary);\r\n  background-color: var(--tesla-dark);\r\n  background: linear-gradient(to bottom, #171a20, #000000);\r\n  color: var(--tesla-light);\r\n  overflow-x: hidden;\r\n  min-height: 100vh;\r\n}\r\n\r\n::-webkit-scrollbar {\r\n  width: 8px;\r\n}\r\n\r\n::-webkit-scrollbar-track {\r\n  background: var(--tesla-dark);\r\n}\r\n\r\n::-webkit-scrollbar-thumb {\r\n  background: var(--tesla-gray);\r\n  border-radius: 4px;\r\n}\r\n\r\n::-webkit-scrollbar-thumb:hover {\r\n  background: var(--tesla-light);\r\n}\r\n\r\na {\r\n  color: inherit;\r\n  text-decoration: none;\r\n}\r\n\r\nbutton {\r\n  cursor: pointer;\r\n  border: none;\r\n  outline: none;\r\n}"],"names":[],"mappings":"AAAA;;;;;;;;AAQA;;;;;;AAMA;;;;;;;;;AASA;;;;AAIA;;;;AAIA;;;;;AAKA;;;;AAIA;;;;;AAKA"}}]
-}

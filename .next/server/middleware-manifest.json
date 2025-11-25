@@ -11,18 +11,18 @@
       "page": "/",
       "matchers": [
         {
-          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?:[^\\/#\\?]+?)(?:\\/(?:[^\\/#\\?]+?))*))?(\\\\.json)?[\\/#\\?]?$",
+          "regexp": "^\\/tesla-investment(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?:[^\\/#\\?]+?)(?:\\/(?:[^\\/#\\?]+?))*))?(\\\\.json)?[\\/#\\?]?$",
           "originalSource": "/:path*"
         }
       ],
       "wasm": [],
       "assets": [],
       "env": {
-        "__NEXT_BUILD_ID": "9f7xeJjDtg_aoNhRSBnTm",
-        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "cY8DroLAiypJeWXek9qHstHYKKfjZSOoCZxEtBB42Kg=",
-        "__NEXT_PREVIEW_MODE_ID": "c6c40311a740d769e3e9e1449570bdd3",
-        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "9435bf865e48ccc420b1d0ff00ee86265ce01bb6d05d1a05757fd168587bfa85",
-        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "eeec48baedd21a9b75c8b4f1e8a82c9cb3a646ae11af756fef382b270800f521"
+        "__NEXT_BUILD_ID": "zWMDlwi6TdnOTog7Wogxw",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "yF7PzUKBunHHipF/Y4eEOYzShL5MiS7kULA8gWBd4Ck=",
+        "__NEXT_PREVIEW_MODE_ID": "26f66dc02850c1d29595d092e415d7b8",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "69aa514a80728a68fdba071c1e36ef7918d0f371a3579067c42cce29458c347d",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "608b083b7a0ec69fe8e3a2b0a1652caf5a53e9609da2022f0d77c6205ce7527a"
       }
     }
   },

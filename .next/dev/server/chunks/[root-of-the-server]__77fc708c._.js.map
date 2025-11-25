@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/USER-PC/OneDrive/Documents/ANTIGRA/tesla-investment/app/api/admin/users/route.js"],"sourcesContent":["import { NextResponse } from 'next/server';\r\nimport { getUsers } from '../../../lib/data';\r\n\r\nexport async function GET() {\r\n    const users = getUsers();\r\n    // Return users without passwords for security\r\n    const safeUsers = users.map(user => ({\r\n        id: user.id,\r\n        name: user.name,\r\n        email: user.email,\r\n        totalInvested: user.totalInvested,\r\n        currentValue: user.currentValue,\r\n        activePlansCount: user.activePlans ? user.activePlans.length : 0\r\n    }));\r\n\r\n    return NextResponse.json(safeUsers);\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;;;;;;;AAGO,eAAe;IAClB,MAAM,QAAQ;IACd,8CAA8C;IAC9C,MAAM,YAAY,MAAM,GAAG,CAAC,CAAA,OAAQ,CAAC;YACjC,IAAI,KAAK,EAAE;YACX,MAAM,KAAK,IAAI;YACf,OAAO,KAAK,KAAK;YACjB,eAAe,KAAK,aAAa;YACjC,cAAc,KAAK,YAAY;YAC/B,kBAAkB,KAAK,WAAW,GAAG,KAAK,WAAW,CAAC,MAAM,GAAG;QACnE,CAAC;IAED,OAAO,uKAAY,CAAC,IAAI,CAAC;AAC7B"}}]
-}

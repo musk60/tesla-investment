@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/USER-PC/OneDrive/Documents/ANTIGRA/tesla-investment/app/api/user/route.js"],"sourcesContent":["import { NextResponse } from 'next/server';\r\n\r\n// Mock user data\r\nconst userPortfolio = {\r\n    name: 'Elon Musk',\r\n    totalInvested: 15000,\r\n    currentValue: 16250,\r\n    activePlans: [\r\n        {\r\n            id: 1,\r\n            planId: 2,\r\n            name: 'Cybertruck Growth',\r\n            investedAmount: 10000,\r\n            currentValue: 10800,\r\n            dateInvested: '2023-01-15'\r\n        },\r\n        {\r\n            id: 2,\r\n            planId: 4,\r\n            name: 'Autonomy AI',\r\n            investedAmount: 5000,\r\n            currentValue: 5450,\r\n            dateInvested: '2023-03-10'\r\n        }\r\n    ]\r\n};\r\n\r\nexport async function GET() {\r\n    return NextResponse.json(userPortfolio);\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;AAEA,iBAAiB;AACjB,MAAM,gBAAgB;IAClB,MAAM;IACN,eAAe;IACf,cAAc;IACd,aAAa;QACT;YACI,IAAI;YACJ,QAAQ;YACR,MAAM;YACN,gBAAgB;YAChB,cAAc;YACd,cAAc;QAClB;QACA;YACI,IAAI;YACJ,QAAQ;YACR,MAAM;YACN,gBAAgB;YAChB,cAAc;YACd,cAAc;QAClB;KACH;AACL;AAEO,eAAe;IAClB,OAAO,gJAAY,CAAC,IAAI,CAAC;AAC7B"}}]
-}
